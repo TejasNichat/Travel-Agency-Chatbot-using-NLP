@@ -1,0 +1,54 @@
+    #a {
+        text-align: center;
+        font-size: 2cm;
+        -webkit-animation: colorchange 20s infinite;
+        animation: colorchange 20s infinite;
+    }
+    
+    @-webkit-keyframes colorchange {
+        0% {
+            background: #8ebf42;
+        }
+        25% {
+            background: #e6ebef;
+        }
+        50% {
+            background: #1c87c9;
+        }
+        75% {
+            background: #095484;
+        }
+        100% {
+            background: #d0e2bc;
+        }
+    }
+    
+    @keyframes colorchange {
+        0% {
+            background: #8ebf42;
+        }
+        25% {
+            background: #e6ebef;
+        }
+        50% {
+            background: #1c87c9;
+        }
+        75% {
+            background: #095484;
+        }
+        100% {
+            background: #d0e2bc;
+        }
+    }
+    
+    #b {
+        border: 1px solid red;
+        padding: 35px;
+        text-align: center;
+        background-color: yellow;
+        opacity: 1.0;
+    }
+    
+    .banner {
+        padding: 0px 500px;
+    }
